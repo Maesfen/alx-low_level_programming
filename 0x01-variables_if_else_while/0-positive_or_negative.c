@@ -6,6 +6,7 @@
  *
  * Return: 0
  */
+int n = rand() - RAND_MAX / 2;
 int main(void)
 {
 	int n;
