@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
  * Return: 0
  */
-int n = rand() - RAND_MAX / 2;
+
 int main(void)
 {
 	int n;
