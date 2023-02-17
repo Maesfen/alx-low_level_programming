@@ -7,31 +7,28 @@
 int main(void)
 
 {
-int number_left;
-int number_right;
+	int c, i;
 
-for (number_left = 48; number_right <= 78; number_left++)
-{
-for (number_right = number_left + 1 ; number_right <= 78; number_right++)
-{
+	for (c = '0'; c <= '9'; c++)
+	{
+		for (i = '0'; i <= '9'; i++)
+		{
+			if (c < i)
+			{
+				putchar(c);
+				putchar(i);
 
-putchar(number_left);
-putchar (number_right);
+				if (c != '8' || (c == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 
-if ((number_left == 56) && (number_right == 78))
-{
-break;
-}
+			}
+		}
+	}
+	
+	putchar('\n');
 
-putchar(',');
-putchar (' ');
-
-}
-
-}
-
-putchar('\n');
-
-return (0);
-
+	return (0);
 }
