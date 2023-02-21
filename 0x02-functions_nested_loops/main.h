@@ -1,6 +1,7 @@
 #include "../main.h"
 /**
  * main - Entry point
+ * Description: check the code for ALX School students
  *
  * Return: 0
  */
