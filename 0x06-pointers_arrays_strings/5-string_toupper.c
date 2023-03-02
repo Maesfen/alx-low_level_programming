@@ -2,7 +2,7 @@
 #include <string.h>
 /**
  * *string_toupper - Description
- *
+ * @c: string
  * Return: 0
  */
 char *string_toupper(char *c)
