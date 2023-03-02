@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * main - description
+ *_strcat - description
  *@src: A pointer to a character that will be changed
  *@src: A pointer to a character that will also be changed
  *
