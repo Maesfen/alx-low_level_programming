@@ -4,6 +4,7 @@
  * reverse_array - Description
  * @a: inputted string
  * @n: inputted string
+ *
  * Return: returns an integer
  */
 void reverse_array(int *a, int n)
