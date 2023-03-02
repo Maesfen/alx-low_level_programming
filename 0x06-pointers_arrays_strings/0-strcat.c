@@ -2,6 +2,9 @@
 #include <string.h>
 /**
  * main - description
+ *@src: A pointer to a character that will be changed
+ *@src: A pointer to a character that will also be changed
+ *
  * Return: 0
  */
 
