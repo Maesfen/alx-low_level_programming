@@ -2,8 +2,10 @@
 #include <string.h>
 /**
  * _strcmp - Description
+ * @s1: inputted string
+ * @s2: inputted string
  *
- * Return: 0
+ * Return:  returns an integer
  */
 int _strcmp(char *s1, char *s2)
 {
