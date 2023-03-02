@@ -2,8 +2,9 @@
 #include <string.h>
 /**
  * reverse_array - Description
- *
- * Return: 0
+ * @a: inputted string
+ * @n: inputted string
+ * Return: returns an integer
  */
 void reverse_array(int *a, int n)
 {
