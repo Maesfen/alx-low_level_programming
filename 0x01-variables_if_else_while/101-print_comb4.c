@@ -7,21 +7,21 @@
 int main(void)
 
 {
-	int left;
-	int right;
-	int center;
+	int i;
+	int j;
+	int k;
 
-	for (left = 48; left <= 57; left++)
+	for (i = 48; i <= 57; i++)
 	{
-		for (center = left + 1; center <= 57; center++)
+		for (j = i + 1; j <= 57; j++)
 		{
-			for (right = center + 1 ; right <= 57; right++)
+			for (k = j + 1 ; k <= 57; k++)
 			{
-				putchar(left);
-				putchar (center);
-				putchar (right);
+				putchar(i);
+				putchar (j);
+				putchar (k);
 
-				if  ((left == 55) && (center == left + 1) && (right == center + 1))
+				if  ((i == 55) && (j == i + 1) && (k == j + 1))
 				{
 					break;
 				}
