@@ -2,6 +2,7 @@
 #include <string.h>
 /**
  * *leet - Description
+ * @c: inputted string
  *
  * Return: 0
  */
