@@ -7,13 +7,13 @@
 int main(void)
 
 {
-	int number;
+	int i;
 
-	for (number = 48; number <= 57; number++)
+	for (i = 48; i <= 57; i++)
 	{
-		putchar(number);
+		putchar(i);
 
-		if (number == 57)
+		if (i == 57)
 		{
 			break;
 		}
