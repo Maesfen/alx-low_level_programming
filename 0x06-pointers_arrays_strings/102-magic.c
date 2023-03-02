@@ -19,5 +19,9 @@ int main(void)
 	 /* so that this prints 98\n */
 
 	 printf("a[2] = %d\n", a[2]);
+<<<<<<< HEAD
 	return (0);
+=======
+return (0);
+>>>>>>> 8abe44deae50174625e055e3d0ae7a2a33ebd047
 }
