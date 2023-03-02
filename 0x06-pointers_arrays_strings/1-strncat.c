@@ -2,8 +2,11 @@
 #include <string.h>
 /**
  * _strncat - Description
- * 
- * Return: 0
+ * @src: inputted string
+ * @dest: inputted string
+ * @n: inputted no of string to concatenate
+ *
+ * Return: returns a concattenated string
  */
 char *_strncat(char *dest, char *src, int n)
 {
