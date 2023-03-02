@@ -2,8 +2,11 @@
 #include <string.h>
 /**
  * _strncpy - description
+ * @src: inputted string
+ * @dest: inputted string
+ * @n: inputted no of string to concatenate
  * 
- * Return: 0
+ * Return:  returns a concattenated string
  */
 char *_strncpy(char *dest, char *src, int n)
 {

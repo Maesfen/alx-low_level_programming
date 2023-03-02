@@ -2,6 +2,8 @@
 #include <string.h>
 /**
  * *_strcat - Description
+ * @src: inputted string
+ * @dest: inputted string
  *
  * Return: 0
  */
