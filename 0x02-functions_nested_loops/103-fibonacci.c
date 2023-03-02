@@ -7,16 +7,16 @@
  */
 int main(void)
 {
-	int a = 0, b = 1, next = 0;
+	int i = 0, j = 1, k = 0;
 	int sum = 0;
 
-	while (next < 4000000)
+	while (k < 4000000)
 	{
-		next = a + b;
-		a = b;
-		b = next;
-		if (next % 2 == 0)
-			sum += next;
+		next = i + j;
+		i = j;
+		j = k;
+		if (k % 2 == 0)
+			sum += k;
 
 	}
 	printf("%i\n", sum);
