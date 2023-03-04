@@ -4,10 +4,10 @@
  * Description: prints every minute of the day
  * Return: void
  */
-
 void jack_bauer(void)
 {
     int i, j, k, l, max;
+    
     max = 57;
 
     for (i = 48; i <= 50; i++)
@@ -34,6 +34,6 @@ void jack_bauer(void)
             }
         }
     }
+    return 0;
 
 }
-
