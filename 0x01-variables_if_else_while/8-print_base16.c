@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- * Return: Always 0 (success/correct)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char alpha[] = "0123456789abcdef\n";
-	int i;
+char alpha[] = "0123456789abcdef\n";
+int i;
 
-	for (i = 0; i < 17; i++)
-	{
-		putchar(alpha[i]);
-	}
-	return (0);
+for (i = 0; i < 17; i++)
+{
+putchar(alpha[i]);
+}
+return (0);
 }
