@@ -1,25 +1,34 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
- *
- * Return: 0
+ * jack_bauer - prints every minute of the day
+ * Description: prints every minute of the day
+ * Return: void
  */
-int main(void)
+void jack_bauer(void)
 
 {
-	char base_16;
+	int i, j, k, l, max;
 
-	for (base_16 = 48; base_16 <= 57; base_16++)
+	max = 57;
+	for (i = 48; i <= 50; i++)
 	{
-		putchar(base_16);
+		if (i == 50)
+		{
+			max = 51;
+		}
+		for (j = 48; j <= max; j++)
+		{
+			for (k = 48; k <= 53; k++)
+			{
+				for (l = 48; l <= 57; l++)
+				{
+					_putchar(i);
+					_putchar(j);
+					_putchar(':');
+					_putchar(l);
+					_putchar('\n');
+				}
+			}
+		}
 	}
-
-	for (base_16 = 97 ; base_16 <= 102; base_16++)
-	{
-		putchar(base_16);
-	}
-
-	putchar ('\n');
-
-	return (0);
 }
