@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 #include <string.h>
 /**
  * *_strstr - returns the pointer to where the accept string has the same val
