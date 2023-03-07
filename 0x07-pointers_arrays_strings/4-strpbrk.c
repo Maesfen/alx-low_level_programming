@@ -22,6 +22,7 @@ char *_strpbrk(char *s, char *accept)
 		}
 		i++;
 	}
+lastline:
 	if (s[i] == '\0' || accept[j] == '\0')
 	{
 		return (NULL);
