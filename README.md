@@ -1,1 +1,1 @@
-I'm now a ALX Student, this is my repository as a full-stack engineer
+I'm now a ALX Student, and this repository is about the basics of C programming
