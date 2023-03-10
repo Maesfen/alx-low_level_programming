@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "changecoin.c"
 /**
  * main - Entry point
  * @argc: integer value counting the number of arguments
