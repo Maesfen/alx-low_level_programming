@@ -1,17 +1,62 @@
-#include "main.h"
-#include <stdio.h>
+#include "3-calc.h"
+#include <stdlib.h>
+#include <string.h>
 
 /**
- * factorial - calculates the factorial of a number
- * @n: inputted number
+ * op_add - adds two numbers.
+ * @a: first number.
+ * @b: second number.
  *
- * Return: it returns factorial of a number
+ * Return: add.
  */
-int factorial(int n)
+int op_add(int a, int b)
 {
-	if (n == 0 || n == 1)
-		return (1);
-	if (n < 0)
-		return (-1);
-	return (n * factorial(n - 1));
+	return (a + b);
+}
+
+
+/**
+ * op_sub - subctracts two numbers.
+ * @a: first number.
+ * @b: second number.
+ *
+ * Return: difference.
+ */
+int op_sub(int a, int b)
+{
+	return (a - b);
+}
+
+/**
+ * op_div - divides two numbers.
+ * @a: first number.
+ * @b: second number.
+ *
+ * Return: division.
+ */
+int op_div(int a, int b)
+{
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+	return (a / b);
+}
+
+/**
+ * op_mod - calculates the module of two numbers.
+ * @a: first number.
+ * @b: second number.
+ *
+ * Return: remainder of the division.
+ */
+int op_mod(int a, int b)
+{
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+	return (a % b);
 }
